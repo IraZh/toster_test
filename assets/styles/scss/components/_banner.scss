@@ -1,0 +1,76 @@
+.banner{
+    height: 281px;
+    background-image: url("/assets/images/1.png");
+    background-size: cover;
+    position: relative;
+    padding: 10px;
+}
+
+.banner_time {
+    width: 103px;
+    height: 58px;
+    background-color: #F19D2F;
+    color: #FFFFFF;
+    font-family: Gotham Pro;
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    border-radius: 7.1px;
+}
+
+.banner_price {
+    position: absolute;
+    bottom: 10px; 
+    right: 10px; 
+    width: 103px;
+    height: 58px;
+    border-radius: 7.1px;
+    background-color: #37D997;
+    color: #FFFFFF;
+    font-family: Gotham Pro;
+}
+
+.banner_time_text {
+    padding-top: 5%;
+    padding-left: 22%;
+    font-weight: 700;
+    font-size: 10.6px;
+    line-height: 0.14px;
+}
+
+.banner_time_timer {
+    padding-left: 12%;
+    font-weight: 700;
+    font-size: 21.25px;
+    line-height: 20.34px;
+}
+
+.old-price {
+    text-decoration: none; 
+    position: relative; 
+    margin-top: 7%;
+    padding-top: 0%;
+    padding-left: 20%;
+    margin-bottom: 2%;
+    font-weight: 700;
+    font-size: 18.08px;
+    line-height: 17.3px;
+}
+
+.old-price::before {
+    content: ""; 
+    position: absolute;
+    bottom: 50%; 
+    left: 10;
+    width: 70px; 
+    border-bottom: 3.51px solid #E27500;
+}
+
+.new-price{
+    font-weight: 700;
+    font-size: 22.3px;
+    line-height: 21.34px;
+    margin-top: 0%;
+    padding-top: 0%;
+    padding-left: 13%;
+}
