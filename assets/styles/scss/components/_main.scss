@@ -1,0 +1,40 @@
+.main_info {
+    display: flex;
+    margin-left: 30px;
+}
+
+.main_info_text {
+    padding: 0%;
+    margin: 20px;
+    font-family: Gotham Pro;
+    font-weight: 400;
+    font-size: 12.07px;
+    line-height: 11.55px;
+    color: #2C2B31;
+}
+
+.main_info_star {
+    margin-top: 15px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.main_info_link {
+    margin: 20px;
+    font-family: Gotham Pro;
+    font-weight: 400;
+    font-size: 12.07px;
+    line-height: 11.55px;
+    color: #37D997;
+    text-decoration: underline;
+}
+
+.title {
+    margin: 10px 50px 10px;
+    padding: 0%;
+    font-family: Gotham Pro;
+    font-weight: 700;
+    line-height: 18.34px;
+    color: #2C2B31;
+    text-transform: uppercase;
+}

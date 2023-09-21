@@ -1,3 +1,7 @@
+body {
+  background-color: #f7f5f5;
+}
+
 .header_top {
   margin: 0%;
   padding: 0%;
@@ -39,14 +43,14 @@
   font-family: Gotham Pro;
   position: absolute;
   bottom: 10px;
-  left: 10px;
+  left: 50px;
   border-radius: 7.1px;
 }
 
 .banner_price {
   position: absolute;
   bottom: 10px;
-  right: 10px;
+  right: 40px;
   width: 103px;
   height: 58px;
   border-radius: 7.1px;
@@ -98,4 +102,226 @@
   margin-top: 0%;
   padding-top: 0%;
   padding-left: 13%;
+}
+
+.main_info {
+  display: flex;
+  margin-left: 30px;
+}
+
+.main_info_text {
+  padding: 0%;
+  margin: 20px;
+  font-family: Gotham Pro;
+  font-weight: 400;
+  font-size: 12.07px;
+  line-height: 11.55px;
+  color: #2C2B31;
+}
+
+.main_info_star {
+  margin-top: 15px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.main_info_link {
+  margin: 20px;
+  font-family: Gotham Pro;
+  font-weight: 400;
+  font-size: 12.07px;
+  line-height: 11.55px;
+  color: #37D997;
+  text-decoration: underline;
+}
+
+.title {
+  margin: 10px 50px 10px;
+  padding: 0%;
+  font-family: Gotham Pro;
+  font-weight: 700;
+  line-height: 18.34px;
+  color: #2C2B31;
+  text-transform: uppercase;
+}
+
+.selected-image {
+  width: 358px;
+  height: 232px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.selected-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.thumbnails {
+  display: flex;
+  gap: 10px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  position: relative;
+}
+
+.image {
+  width: 80px;
+  height: 66px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.image:hover {
+  opacity: 0.4;
+}
+
+.selected-thumbnail {
+  opacity: 0.4;
+}
+
+.rating_text {
+  margin-top: 1%;
+  margin-left: 50px;
+}
+
+.rating_text_1 {
+  font-family: Gotham Pro;
+  font-weight: 700;
+  font-size: 15.29px;
+  line-height: 14.63px;
+  color: #000000;
+}
+
+.rating_text_2 {
+  font-family: Gotham Pro;
+  font-weight: 400;
+  font-size: 15.29px;
+  line-height: 14.63px;
+  color: #000000;
+}
+
+.rating_stars {
+  margin-left: 50px;
+  margin-bottom: 0%;
+  font-family: Gotham Pro;
+  font-weight: 400;
+  font-size: 15.29px;
+  line-height: 14.63px;
+  color: #2C2B31;
+}
+
+.stars {
+  color: gold;
+}
+
+.choose {
+  display: flex;
+  justify-content: center;
+  margin: 10px 25px 30px 25px;
+}
+
+.select-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.custom-select-container {
+  display: flex;
+  align-items: center;
+}
+
+.choose {
+  display: flex;
+  justify-content: center;
+}
+
+.select-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-family: Gotham Pro;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 9.57px;
+  color: #2C2B31;
+}
+
+.custom-select {
+  width: 170px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  border: 1px solid #ffffff;
+  padding-left: 60px;
+  font-family: Gotham Pro;
+  font-weight: 700;
+  font-size: 21.69px;
+  line-height: 20.76px;
+  color: #2C2B31;
+}
+
+.custom-select_2 {
+  width: 170px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  border: 1px solid #ffffff;
+  padding-left: 80px;
+  font-family: Gotham Pro;
+  font-weight: 700;
+  font-size: 21.69px;
+  line-height: 20.76px;
+  color: #2C2B31;
+}
+
+.hidden-select {
+  display: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+button {
+  width: 356px;
+  height: 50px;
+  padding: 0;
+  border-radius: 15px;
+  background-color: #37D997;
+  border: 15px solid #37D997;
+  font-family: Gotham Pro;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28.71px;
+  color: #FFFFFF;
+  text-transform: uppercase;
 }/*# sourceMappingURL=index.css.map */

@@ -6,9 +6,10 @@
     <link rel="stylesheet" href="./assets/styles/scss/normalize.css" />
 	<link rel="stylesheet" href="./assets/styles/scss/index.css" />
     <link rel="stylesheet" href="./assets/fonts/gothampro.ttf" />
-    <title>Document</title>
+    <title>Orthopedic Slippers</title>
 </head>
 <body>
+
     <header>
         <div class="header_top">
             <p>SPECIAL OFFER + FREE DELIVERY 2-4 DAYS IN SA</p>
@@ -17,6 +18,7 @@
             <img src="./assets/images/logo.png" alt="logo">
         </div>
     </header>
+
     <section class="banner">
         <div class="banner_time">
             <p class="banner_time_text">Limited offer</p>
@@ -27,6 +29,68 @@
             <p class="new-price">R 160.00</p>
         </div>
     </section>
+
+    <main class="main">
+        <div class="main_info">
+            <p class="main_info_text">Excellent 4.8/5</p>
+            <div class="main_info_star">
+                <img src="./assets/images/Group 147.png" alt="star">
+            </div>
+            <a class="main_info_link" href="#">best selling</a>
+        </div>
+        <h2 class="title">Orthopedic Slippers</h2>
+        <div class="gallery">
+            <div class="selected-image">
+                <img src="./assets/images/BIG PHOTOS.png" alt="Изображение 1">
+            </div>
+            <div class="thumbnails">
+                <div class="image" onclick="showImage(1)">
+                    <img src="./assets/images/BIG PHOTOS.png" alt="Изображение 1">
+                </div>
+                <div class="image" onclick="showImage(2)">
+                    <img src="./assets/images/orange.png" alt="Изображение 2">
+                </div>
+                <div class="image" onclick="showImage(3)">
+                    <img src="./assets/images/pink.png" alt="Изображение 3">
+                </div>
+                <div class="image" onclick="showImage(4)">
+                    <img src="./assets/images/yellow.png" alt="Изображение 4">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="rating">
+        <p class="rating_text"> <span class="rating_text_1">Fast Delivery:</span> <span class="rating_text_2">2-4 days from SA</span></p>
+        <p class="rating_text"> <span class="rating_text_1">In Stock:</span> <span class="rating_text_2">Shipping from Johannesburg</span></p>
+        <p class="rating_stars"> <span class="stars">★★★★★</span> (10)</p>
+    </section>
+
+    <section class="choose">
+        <div class="select-wrapper">
+            <label for="color">color</label>
+                <select id="color" class="custom-select">
+                    <option value="black">Black</option>
+                    <option value="orange">Orange</option>
+                    <option value="pink">Pink</option>
+                    <option value="yellow">Yellow</option>
+                </select>
+        </div>
+        <div class="select-wrapper">
+            <label for="size">size</label>
+                <select id="color" class="custom-select_2">
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <a href="https://www.youtube.com/"><button>buy now</button></a>
+    </footer>
+
     <script src="./index.js"></script>
 </body>
 </html>

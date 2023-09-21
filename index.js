@@ -19,3 +19,32 @@ function updateTimer() {
 const timerInterval = setInterval(updateTimer, 1000);
 
 updateTimer();
+
+
+const thumbnails = document.querySelectorAll('.image');
+const selectedImage = document.querySelector('.selected-image');
+
+thumbnails[0].classList.add('selected-thumbnail'); 
+
+function showImage(index) {
+    const imagePaths = [
+        './assets/images/BIG PHOTOS.png',
+        './assets/images/orange.png',
+        './assets/images/pink.png',
+        './assets/images/yellow.png'
+    ];
+
+    selectedImage.innerHTML = ''; 
+
+    const image = document.createElement('img');
+    image.src = imagePaths[index - 1];
+    image.alt = `Изображение ${index}`;
+    
+    selectedImage.appendChild(image); 
+
+    thumbnails.forEach((thumbnail) => {
+        thumbnail.classList.remove('selected-thumbnail');
+    });
+
+    thumbnails[index - 1].classList.add('selected-thumbnail');
+}
